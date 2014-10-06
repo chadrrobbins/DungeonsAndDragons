@@ -44,7 +44,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArrayMethods.cs" />
     <Compile Include="CustomXML.cs" />
     <Compile Include="DatabaseMethods.cs" />
     <Compile Include="DiceMethods.cs" />

@@ -49,17 +49,11 @@ namespace DungeonsAndDragons_0623_2014
         }
 
         private void btnASroll_Click(object sender, EventArgs e)
-        {   
-            ArrayMethods ArrayMethods = new ArrayMethods();
-            FillMethods FillMethods = new FillMethods();
+        {               
+            DiceMethods DiceMethods = new DiceMethods();
 
-            int[] AbilityScores = { };
-
-            //GetAbilityScores creates an int array, passes the int array and the listbox to a print array method. The print array method sorts the
-            //int array, adds the three highest values, and prints the results to the listbox.  The GetAbilityScores method then creates another int array
-            //for the totals.
-            AbilityScores = ArrayMethods.GetAbilityScores(lbDiceAuto);
-            FillMethods.cbAutoFillAbilityScores(AbilityScores, cbASstrAuto, cbASconAuto, cbASdexAuto, cbASintAuto, cbASwisAuto, cbASchaAuto);            
+            DiceMethods.PrintDiceArray(lbDiceAuto);          
+            
         }
 
         private void rbAuto_CheckedChanged(object sender, EventArgs e)
@@ -74,6 +68,11 @@ namespace DungeonsAndDragons_0623_2014
                 gbASmanual.Visible = true;
                 gbASauto.Visible = false;
             }
+        }
+
+        private void cbASstrAuto_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }                  
     }
 }

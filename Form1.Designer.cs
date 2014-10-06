@@ -38,54 +38,63 @@
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.tab_AbilityScores = new System.Windows.Forms.TabPage();
-            this.tbASbonusPoints = new System.Windows.Forms.TextBox();
-            this.label27 = new System.Windows.Forms.Label();
-            this.tbASconBonus = new System.Windows.Forms.TextBox();
-            this.tbASdexBonus = new System.Windows.Forms.TextBox();
-            this.tbASchaBonus = new System.Windows.Forms.TextBox();
-            this.tbASintBonus = new System.Windows.Forms.TextBox();
-            this.tbASwisBonus = new System.Windows.Forms.TextBox();
-            this.tbASstrBonus = new System.Windows.Forms.TextBox();
-            this.btnASconMin = new System.Windows.Forms.Button();
-            this.btnASdexMin = new System.Windows.Forms.Button();
-            this.btnASchaMin = new System.Windows.Forms.Button();
-            this.btnASintMin = new System.Windows.Forms.Button();
-            this.btnASwisMin = new System.Windows.Forms.Button();
-            this.btnASstrMin = new System.Windows.Forms.Button();
-            this.btnASconPlus = new System.Windows.Forms.Button();
-            this.btnASdexPlus = new System.Windows.Forms.Button();
-            this.btnASwisPlus = new System.Windows.Forms.Button();
-            this.btnASintPlus = new System.Windows.Forms.Button();
-            this.btnASchaPlus = new System.Windows.Forms.Button();
-            this.btnASstrPlus = new System.Windows.Forms.Button();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
+            this.gbASpoints = new System.Windows.Forms.GroupBox();
             this.label26 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.cbASchaAuto = new System.Windows.Forms.ComboBox();
-            this.cbASconAuto = new System.Windows.Forms.ComboBox();
-            this.cbASintAuto = new System.Windows.Forms.ComboBox();
-            this.cbASdexAuto = new System.Windows.Forms.ComboBox();
-            this.cbASwisAuto = new System.Windows.Forms.ComboBox();
-            this.cbASstrAuto = new System.Windows.Forms.ComboBox();
-            this.labelASchaAuto = new System.Windows.Forms.Label();
-            this.labelASintAuto = new System.Windows.Forms.Label();
-            this.labelASwisAuto = new System.Windows.Forms.Label();
-            this.labelASdexAuto = new System.Windows.Forms.Label();
-            this.labelASconAuto = new System.Windows.Forms.Label();
-            this.labelASstrAuto = new System.Windows.Forms.Label();
-            this.lbDiceAuto = new System.Windows.Forms.ListBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.tbASconBonus = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.tbASdexBonus = new System.Windows.Forms.TextBox();
+            this.btnASstrPlus = new System.Windows.Forms.Button();
+            this.tbASchaBonus = new System.Windows.Forms.TextBox();
+            this.btnASchaPlus = new System.Windows.Forms.Button();
+            this.tbASintBonus = new System.Windows.Forms.TextBox();
+            this.btnASintPlus = new System.Windows.Forms.Button();
+            this.tbASwisBonus = new System.Windows.Forms.TextBox();
+            this.btnASwisPlus = new System.Windows.Forms.Button();
+            this.tbASstrBonus = new System.Windows.Forms.TextBox();
+            this.btnASdexPlus = new System.Windows.Forms.Button();
+            this.btnASconMin = new System.Windows.Forms.Button();
+            this.btnASconPlus = new System.Windows.Forms.Button();
+            this.btnASdexMin = new System.Windows.Forms.Button();
+            this.btnASstrMin = new System.Windows.Forms.Button();
+            this.btnASchaMin = new System.Windows.Forms.Button();
+            this.btnASwisMin = new System.Windows.Forms.Button();
+            this.btnASintMin = new System.Windows.Forms.Button();
+            this.gbASauto = new System.Windows.Forms.GroupBox();
             this.btnASrollAuto = new System.Windows.Forms.Button();
-            this.btnASsave = new System.Windows.Forms.Button();
+            this.lbDiceAuto = new System.Windows.Forms.ListBox();
+            this.labelASstrAuto = new System.Windows.Forms.Label();
+            this.labelASconAuto = new System.Windows.Forms.Label();
+            this.labelASdexAuto = new System.Windows.Forms.Label();
+            this.labelASwisAuto = new System.Windows.Forms.Label();
+            this.labelASintAuto = new System.Windows.Forms.Label();
+            this.labelASchaAuto = new System.Windows.Forms.Label();
+            this.cbASstrAuto = new System.Windows.Forms.ComboBox();
+            this.cbASwisAuto = new System.Windows.Forms.ComboBox();
+            this.cbASdexAuto = new System.Windows.Forms.ComboBox();
+            this.cbASintAuto = new System.Windows.Forms.ComboBox();
+            this.cbASconAuto = new System.Windows.Forms.ComboBox();
+            this.cbASchaAuto = new System.Windows.Forms.ComboBox();
+            this.gbASmanual = new System.Windows.Forms.GroupBox();
+            this.labelASstrMan = new System.Windows.Forms.Label();
+            this.labelASconMan = new System.Windows.Forms.Label();
+            this.tbASstr = new System.Windows.Forms.TextBox();
+            this.labelASchaMan = new System.Windows.Forms.Label();
             this.tbAScon = new System.Windows.Forms.TextBox();
+            this.labelASintMan = new System.Windows.Forms.Label();
             this.tbASdex = new System.Windows.Forms.TextBox();
+            this.labelASwisMan = new System.Windows.Forms.Label();
+            this.tbASwis = new System.Windows.Forms.TextBox();
+            this.labelASdexMan = new System.Windows.Forms.Label();
             this.tbAScha = new System.Windows.Forms.TextBox();
             this.tbASint = new System.Windows.Forms.TextBox();
-            this.tbASwis = new System.Windows.Forms.TextBox();
-            this.tbASstr = new System.Windows.Forms.TextBox();
+            this.tbASbonusPoints = new System.Windows.Forms.TextBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.btnASsave = new System.Windows.Forms.Button();
             this.gbRollDiceMethod = new System.Windows.Forms.GroupBox();
             this.rbManual = new System.Windows.Forms.RadioButton();
             this.rbAuto = new System.Windows.Forms.RadioButton();
@@ -123,22 +132,13 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.gbASmanual = new System.Windows.Forms.GroupBox();
-            this.gbASauto = new System.Windows.Forms.GroupBox();
-            this.gbASpoints = new System.Windows.Forms.GroupBox();
-            this.labelASstrMan = new System.Windows.Forms.Label();
-            this.labelASconMan = new System.Windows.Forms.Label();
-            this.labelASchaMan = new System.Windows.Forms.Label();
-            this.labelASintMan = new System.Windows.Forms.Label();
-            this.labelASwisMan = new System.Windows.Forms.Label();
-            this.labelASdexMan = new System.Windows.Forms.Label();
             this.tabcon_Main.SuspendLayout();
             this.tab_RaceClass.SuspendLayout();
             this.tab_AbilityScores.SuspendLayout();
-            this.gbRollDiceMethod.SuspendLayout();
-            this.gbASmanual.SuspendLayout();
-            this.gbASauto.SuspendLayout();
             this.gbASpoints.SuspendLayout();
+            this.gbASauto.SuspendLayout();
+            this.gbASmanual.SuspendLayout();
+            this.gbRollDiceMethod.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabcon_Main
@@ -170,7 +170,7 @@
             this.tab_RaceClass.Location = new System.Drawing.Point(4, 22);
             this.tab_RaceClass.Name = "tab_RaceClass";
             this.tab_RaceClass.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_RaceClass.Size = new System.Drawing.Size(703, 465);
+            this.tab_RaceClass.Size = new System.Drawing.Size(733, 465);
             this.tab_RaceClass.TabIndex = 0;
             this.tab_RaceClass.Text = "Race & Class";
             // 
@@ -263,6 +263,525 @@
             this.tab_AbilityScores.TabIndex = 1;
             this.tab_AbilityScores.Text = "Ability Scores";
             // 
+            // gbASpoints
+            // 
+            this.gbASpoints.Controls.Add(this.label26);
+            this.gbASpoints.Controls.Add(this.label25);
+            this.gbASpoints.Controls.Add(this.label24);
+            this.gbASpoints.Controls.Add(this.label23);
+            this.gbASpoints.Controls.Add(this.label22);
+            this.gbASpoints.Controls.Add(this.tbASconBonus);
+            this.gbASpoints.Controls.Add(this.label21);
+            this.gbASpoints.Controls.Add(this.tbASdexBonus);
+            this.gbASpoints.Controls.Add(this.btnASstrPlus);
+            this.gbASpoints.Controls.Add(this.tbASchaBonus);
+            this.gbASpoints.Controls.Add(this.btnASchaPlus);
+            this.gbASpoints.Controls.Add(this.tbASintBonus);
+            this.gbASpoints.Controls.Add(this.btnASintPlus);
+            this.gbASpoints.Controls.Add(this.tbASwisBonus);
+            this.gbASpoints.Controls.Add(this.btnASwisPlus);
+            this.gbASpoints.Controls.Add(this.tbASstrBonus);
+            this.gbASpoints.Controls.Add(this.btnASdexPlus);
+            this.gbASpoints.Controls.Add(this.btnASconMin);
+            this.gbASpoints.Controls.Add(this.btnASconPlus);
+            this.gbASpoints.Controls.Add(this.btnASdexMin);
+            this.gbASpoints.Controls.Add(this.btnASstrMin);
+            this.gbASpoints.Controls.Add(this.btnASchaMin);
+            this.gbASpoints.Controls.Add(this.btnASwisMin);
+            this.gbASpoints.Controls.Add(this.btnASintMin);
+            this.gbASpoints.Location = new System.Drawing.Point(512, 123);
+            this.gbASpoints.Name = "gbASpoints";
+            this.gbASpoints.Size = new System.Drawing.Size(192, 223);
+            this.gbASpoints.TabIndex = 57;
+            this.gbASpoints.TabStop = false;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.ForeColor = System.Drawing.Color.Black;
+            this.label26.Location = new System.Drawing.Point(19, 21);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(47, 13);
+            this.label26.TabIndex = 29;
+            this.label26.Text = "Strength";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.ForeColor = System.Drawing.Color.Black;
+            this.label25.Location = new System.Drawing.Point(19, 49);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(62, 13);
+            this.label25.TabIndex = 30;
+            this.label25.Text = "Constitution";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.ForeColor = System.Drawing.Color.Black;
+            this.label24.Location = new System.Drawing.Point(19, 77);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(48, 13);
+            this.label24.TabIndex = 31;
+            this.label24.Text = "Dexterity";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.ForeColor = System.Drawing.Color.Black;
+            this.label23.Location = new System.Drawing.Point(19, 105);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(45, 13);
+            this.label23.TabIndex = 32;
+            this.label23.Text = "Wisdom";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.ForeColor = System.Drawing.Color.Black;
+            this.label22.Location = new System.Drawing.Point(19, 133);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(61, 13);
+            this.label22.TabIndex = 33;
+            this.label22.Text = "Intelligence";
+            // 
+            // tbASconBonus
+            // 
+            this.tbASconBonus.Location = new System.Drawing.Point(115, 46);
+            this.tbASconBonus.Name = "tbASconBonus";
+            this.tbASconBonus.Size = new System.Drawing.Size(35, 20);
+            this.tbASconBonus.TabIndex = 52;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.ForeColor = System.Drawing.Color.Black;
+            this.label21.Location = new System.Drawing.Point(19, 161);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(50, 13);
+            this.label21.TabIndex = 34;
+            this.label21.Text = "Charisma";
+            // 
+            // tbASdexBonus
+            // 
+            this.tbASdexBonus.Location = new System.Drawing.Point(115, 73);
+            this.tbASdexBonus.Name = "tbASdexBonus";
+            this.tbASdexBonus.Size = new System.Drawing.Size(35, 20);
+            this.tbASdexBonus.TabIndex = 51;
+            // 
+            // btnASstrPlus
+            // 
+            this.btnASstrPlus.Location = new System.Drawing.Point(83, 16);
+            this.btnASstrPlus.Name = "btnASstrPlus";
+            this.btnASstrPlus.Size = new System.Drawing.Size(27, 23);
+            this.btnASstrPlus.TabIndex = 35;
+            this.btnASstrPlus.Text = "+";
+            this.btnASstrPlus.UseVisualStyleBackColor = true;
+            // 
+            // tbASchaBonus
+            // 
+            this.tbASchaBonus.Location = new System.Drawing.Point(116, 158);
+            this.tbASchaBonus.Name = "tbASchaBonus";
+            this.tbASchaBonus.Size = new System.Drawing.Size(35, 20);
+            this.tbASchaBonus.TabIndex = 50;
+            // 
+            // btnASchaPlus
+            // 
+            this.btnASchaPlus.Location = new System.Drawing.Point(83, 156);
+            this.btnASchaPlus.Name = "btnASchaPlus";
+            this.btnASchaPlus.Size = new System.Drawing.Size(27, 23);
+            this.btnASchaPlus.TabIndex = 36;
+            this.btnASchaPlus.Text = "+";
+            this.btnASchaPlus.UseVisualStyleBackColor = true;
+            // 
+            // tbASintBonus
+            // 
+            this.tbASintBonus.Location = new System.Drawing.Point(116, 130);
+            this.tbASintBonus.Name = "tbASintBonus";
+            this.tbASintBonus.Size = new System.Drawing.Size(35, 20);
+            this.tbASintBonus.TabIndex = 49;
+            // 
+            // btnASintPlus
+            // 
+            this.btnASintPlus.Location = new System.Drawing.Point(83, 128);
+            this.btnASintPlus.Name = "btnASintPlus";
+            this.btnASintPlus.Size = new System.Drawing.Size(27, 23);
+            this.btnASintPlus.TabIndex = 37;
+            this.btnASintPlus.Text = "+";
+            this.btnASintPlus.UseVisualStyleBackColor = true;
+            // 
+            // tbASwisBonus
+            // 
+            this.tbASwisBonus.Location = new System.Drawing.Point(115, 102);
+            this.tbASwisBonus.Name = "tbASwisBonus";
+            this.tbASwisBonus.Size = new System.Drawing.Size(35, 20);
+            this.tbASwisBonus.TabIndex = 48;
+            // 
+            // btnASwisPlus
+            // 
+            this.btnASwisPlus.Location = new System.Drawing.Point(83, 100);
+            this.btnASwisPlus.Name = "btnASwisPlus";
+            this.btnASwisPlus.Size = new System.Drawing.Size(27, 23);
+            this.btnASwisPlus.TabIndex = 38;
+            this.btnASwisPlus.Text = "+";
+            this.btnASwisPlus.UseVisualStyleBackColor = true;
+            // 
+            // tbASstrBonus
+            // 
+            this.tbASstrBonus.Location = new System.Drawing.Point(116, 18);
+            this.tbASstrBonus.Name = "tbASstrBonus";
+            this.tbASstrBonus.Size = new System.Drawing.Size(35, 20);
+            this.tbASstrBonus.TabIndex = 47;
+            // 
+            // btnASdexPlus
+            // 
+            this.btnASdexPlus.Location = new System.Drawing.Point(83, 72);
+            this.btnASdexPlus.Name = "btnASdexPlus";
+            this.btnASdexPlus.Size = new System.Drawing.Size(27, 23);
+            this.btnASdexPlus.TabIndex = 39;
+            this.btnASdexPlus.Text = "+";
+            this.btnASdexPlus.UseVisualStyleBackColor = true;
+            // 
+            // btnASconMin
+            // 
+            this.btnASconMin.Location = new System.Drawing.Point(156, 44);
+            this.btnASconMin.Name = "btnASconMin";
+            this.btnASconMin.Size = new System.Drawing.Size(27, 23);
+            this.btnASconMin.TabIndex = 46;
+            this.btnASconMin.Text = "-";
+            this.btnASconMin.UseVisualStyleBackColor = true;
+            // 
+            // btnASconPlus
+            // 
+            this.btnASconPlus.Location = new System.Drawing.Point(83, 44);
+            this.btnASconPlus.Name = "btnASconPlus";
+            this.btnASconPlus.Size = new System.Drawing.Size(27, 23);
+            this.btnASconPlus.TabIndex = 40;
+            this.btnASconPlus.Text = "+";
+            this.btnASconPlus.UseVisualStyleBackColor = true;
+            // 
+            // btnASdexMin
+            // 
+            this.btnASdexMin.Location = new System.Drawing.Point(156, 72);
+            this.btnASdexMin.Name = "btnASdexMin";
+            this.btnASdexMin.Size = new System.Drawing.Size(27, 23);
+            this.btnASdexMin.TabIndex = 45;
+            this.btnASdexMin.Text = "-";
+            this.btnASdexMin.UseVisualStyleBackColor = true;
+            // 
+            // btnASstrMin
+            // 
+            this.btnASstrMin.Location = new System.Drawing.Point(156, 16);
+            this.btnASstrMin.Name = "btnASstrMin";
+            this.btnASstrMin.Size = new System.Drawing.Size(27, 23);
+            this.btnASstrMin.TabIndex = 41;
+            this.btnASstrMin.Text = "-";
+            this.btnASstrMin.UseVisualStyleBackColor = true;
+            // 
+            // btnASchaMin
+            // 
+            this.btnASchaMin.Location = new System.Drawing.Point(156, 156);
+            this.btnASchaMin.Name = "btnASchaMin";
+            this.btnASchaMin.Size = new System.Drawing.Size(27, 23);
+            this.btnASchaMin.TabIndex = 44;
+            this.btnASchaMin.Text = "-";
+            this.btnASchaMin.UseVisualStyleBackColor = true;
+            // 
+            // btnASwisMin
+            // 
+            this.btnASwisMin.Location = new System.Drawing.Point(156, 100);
+            this.btnASwisMin.Name = "btnASwisMin";
+            this.btnASwisMin.Size = new System.Drawing.Size(27, 23);
+            this.btnASwisMin.TabIndex = 42;
+            this.btnASwisMin.Text = "-";
+            this.btnASwisMin.UseVisualStyleBackColor = true;
+            // 
+            // btnASintMin
+            // 
+            this.btnASintMin.Location = new System.Drawing.Point(156, 128);
+            this.btnASintMin.Name = "btnASintMin";
+            this.btnASintMin.Size = new System.Drawing.Size(27, 23);
+            this.btnASintMin.TabIndex = 43;
+            this.btnASintMin.Text = "-";
+            this.btnASintMin.UseVisualStyleBackColor = true;
+            // 
+            // gbASauto
+            // 
+            this.gbASauto.Controls.Add(this.btnASrollAuto);
+            this.gbASauto.Controls.Add(this.lbDiceAuto);
+            this.gbASauto.Controls.Add(this.labelASstrAuto);
+            this.gbASauto.Controls.Add(this.labelASconAuto);
+            this.gbASauto.Controls.Add(this.labelASdexAuto);
+            this.gbASauto.Controls.Add(this.labelASwisAuto);
+            this.gbASauto.Controls.Add(this.labelASintAuto);
+            this.gbASauto.Controls.Add(this.labelASchaAuto);
+            this.gbASauto.Controls.Add(this.cbASstrAuto);
+            this.gbASauto.Controls.Add(this.cbASwisAuto);
+            this.gbASauto.Controls.Add(this.cbASdexAuto);
+            this.gbASauto.Controls.Add(this.cbASintAuto);
+            this.gbASauto.Controls.Add(this.cbASconAuto);
+            this.gbASauto.Controls.Add(this.cbASchaAuto);
+            this.gbASauto.Location = new System.Drawing.Point(147, 123);
+            this.gbASauto.Name = "gbASauto";
+            this.gbASauto.Size = new System.Drawing.Size(359, 266);
+            this.gbASauto.TabIndex = 56;
+            this.gbASauto.TabStop = false;
+            // 
+            // btnASrollAuto
+            // 
+            this.btnASrollAuto.Location = new System.Drawing.Point(6, 16);
+            this.btnASrollAuto.Name = "btnASrollAuto";
+            this.btnASrollAuto.Size = new System.Drawing.Size(75, 23);
+            this.btnASrollAuto.TabIndex = 14;
+            this.btnASrollAuto.Text = "Roll Dice";
+            this.btnASrollAuto.UseVisualStyleBackColor = true;
+            this.btnASrollAuto.Click += new System.EventHandler(this.btnASroll_Click);
+            // 
+            // lbDiceAuto
+            // 
+            this.lbDiceAuto.FormattingEnabled = true;
+            this.lbDiceAuto.Location = new System.Drawing.Point(87, 15);
+            this.lbDiceAuto.Name = "lbDiceAuto";
+            this.lbDiceAuto.Size = new System.Drawing.Size(120, 238);
+            this.lbDiceAuto.TabIndex = 15;
+            // 
+            // labelASstrAuto
+            // 
+            this.labelASstrAuto.AutoSize = true;
+            this.labelASstrAuto.ForeColor = System.Drawing.Color.Black;
+            this.labelASstrAuto.Location = new System.Drawing.Point(213, 24);
+            this.labelASstrAuto.Name = "labelASstrAuto";
+            this.labelASstrAuto.Size = new System.Drawing.Size(47, 13);
+            this.labelASstrAuto.TabIndex = 16;
+            this.labelASstrAuto.Text = "Strength";
+            // 
+            // labelASconAuto
+            // 
+            this.labelASconAuto.AutoSize = true;
+            this.labelASconAuto.ForeColor = System.Drawing.Color.Black;
+            this.labelASconAuto.Location = new System.Drawing.Point(213, 52);
+            this.labelASconAuto.Name = "labelASconAuto";
+            this.labelASconAuto.Size = new System.Drawing.Size(62, 13);
+            this.labelASconAuto.TabIndex = 17;
+            this.labelASconAuto.Text = "Constitution";
+            // 
+            // labelASdexAuto
+            // 
+            this.labelASdexAuto.AutoSize = true;
+            this.labelASdexAuto.ForeColor = System.Drawing.Color.Black;
+            this.labelASdexAuto.Location = new System.Drawing.Point(213, 80);
+            this.labelASdexAuto.Name = "labelASdexAuto";
+            this.labelASdexAuto.Size = new System.Drawing.Size(48, 13);
+            this.labelASdexAuto.TabIndex = 18;
+            this.labelASdexAuto.Text = "Dexterity";
+            // 
+            // labelASwisAuto
+            // 
+            this.labelASwisAuto.AutoSize = true;
+            this.labelASwisAuto.ForeColor = System.Drawing.Color.Black;
+            this.labelASwisAuto.Location = new System.Drawing.Point(213, 108);
+            this.labelASwisAuto.Name = "labelASwisAuto";
+            this.labelASwisAuto.Size = new System.Drawing.Size(45, 13);
+            this.labelASwisAuto.TabIndex = 19;
+            this.labelASwisAuto.Text = "Wisdom";
+            // 
+            // labelASintAuto
+            // 
+            this.labelASintAuto.AutoSize = true;
+            this.labelASintAuto.ForeColor = System.Drawing.Color.Black;
+            this.labelASintAuto.Location = new System.Drawing.Point(213, 136);
+            this.labelASintAuto.Name = "labelASintAuto";
+            this.labelASintAuto.Size = new System.Drawing.Size(61, 13);
+            this.labelASintAuto.TabIndex = 20;
+            this.labelASintAuto.Text = "Intelligence";
+            // 
+            // labelASchaAuto
+            // 
+            this.labelASchaAuto.AutoSize = true;
+            this.labelASchaAuto.ForeColor = System.Drawing.Color.Black;
+            this.labelASchaAuto.Location = new System.Drawing.Point(213, 164);
+            this.labelASchaAuto.Name = "labelASchaAuto";
+            this.labelASchaAuto.Size = new System.Drawing.Size(50, 13);
+            this.labelASchaAuto.TabIndex = 21;
+            this.labelASchaAuto.Text = "Charisma";
+            // 
+            // cbASstrAuto
+            // 
+            this.cbASstrAuto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbASstrAuto.FormattingEnabled = true;
+            this.cbASstrAuto.Location = new System.Drawing.Point(289, 23);
+            this.cbASstrAuto.Name = "cbASstrAuto";
+            this.cbASstrAuto.Size = new System.Drawing.Size(63, 21);
+            this.cbASstrAuto.TabIndex = 22;
+            this.cbASstrAuto.SelectedIndexChanged += new System.EventHandler(this.cbASstrAuto_SelectedIndexChanged);
+            // 
+            // cbASwisAuto
+            // 
+            this.cbASwisAuto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbASwisAuto.FormattingEnabled = true;
+            this.cbASwisAuto.Location = new System.Drawing.Point(289, 107);
+            this.cbASwisAuto.Name = "cbASwisAuto";
+            this.cbASwisAuto.Size = new System.Drawing.Size(63, 21);
+            this.cbASwisAuto.TabIndex = 23;
+            // 
+            // cbASdexAuto
+            // 
+            this.cbASdexAuto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbASdexAuto.FormattingEnabled = true;
+            this.cbASdexAuto.Location = new System.Drawing.Point(289, 79);
+            this.cbASdexAuto.Name = "cbASdexAuto";
+            this.cbASdexAuto.Size = new System.Drawing.Size(63, 21);
+            this.cbASdexAuto.TabIndex = 24;
+            // 
+            // cbASintAuto
+            // 
+            this.cbASintAuto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbASintAuto.FormattingEnabled = true;
+            this.cbASintAuto.Location = new System.Drawing.Point(289, 135);
+            this.cbASintAuto.Name = "cbASintAuto";
+            this.cbASintAuto.Size = new System.Drawing.Size(63, 21);
+            this.cbASintAuto.TabIndex = 25;
+            // 
+            // cbASconAuto
+            // 
+            this.cbASconAuto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbASconAuto.FormattingEnabled = true;
+            this.cbASconAuto.Location = new System.Drawing.Point(289, 51);
+            this.cbASconAuto.Name = "cbASconAuto";
+            this.cbASconAuto.Size = new System.Drawing.Size(63, 21);
+            this.cbASconAuto.TabIndex = 26;
+            // 
+            // cbASchaAuto
+            // 
+            this.cbASchaAuto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbASchaAuto.FormattingEnabled = true;
+            this.cbASchaAuto.Location = new System.Drawing.Point(289, 163);
+            this.cbASchaAuto.Name = "cbASchaAuto";
+            this.cbASchaAuto.Size = new System.Drawing.Size(63, 21);
+            this.cbASchaAuto.TabIndex = 27;
+            // 
+            // gbASmanual
+            // 
+            this.gbASmanual.Controls.Add(this.labelASstrMan);
+            this.gbASmanual.Controls.Add(this.labelASconMan);
+            this.gbASmanual.Controls.Add(this.tbASstr);
+            this.gbASmanual.Controls.Add(this.labelASchaMan);
+            this.gbASmanual.Controls.Add(this.tbAScon);
+            this.gbASmanual.Controls.Add(this.labelASintMan);
+            this.gbASmanual.Controls.Add(this.tbASdex);
+            this.gbASmanual.Controls.Add(this.labelASwisMan);
+            this.gbASmanual.Controls.Add(this.tbASwis);
+            this.gbASmanual.Controls.Add(this.labelASdexMan);
+            this.gbASmanual.Controls.Add(this.tbAScha);
+            this.gbASmanual.Controls.Add(this.tbASint);
+            this.gbASmanual.Location = new System.Drawing.Point(9, 123);
+            this.gbASmanual.Name = "gbASmanual";
+            this.gbASmanual.Size = new System.Drawing.Size(132, 195);
+            this.gbASmanual.TabIndex = 55;
+            this.gbASmanual.TabStop = false;
+            // 
+            // labelASstrMan
+            // 
+            this.labelASstrMan.AutoSize = true;
+            this.labelASstrMan.ForeColor = System.Drawing.Color.Black;
+            this.labelASstrMan.Location = new System.Drawing.Point(6, 21);
+            this.labelASstrMan.Name = "labelASstrMan";
+            this.labelASstrMan.Size = new System.Drawing.Size(47, 13);
+            this.labelASstrMan.TabIndex = 61;
+            this.labelASstrMan.Text = "Strength";
+            // 
+            // labelASconMan
+            // 
+            this.labelASconMan.AutoSize = true;
+            this.labelASconMan.ForeColor = System.Drawing.Color.Black;
+            this.labelASconMan.Location = new System.Drawing.Point(6, 49);
+            this.labelASconMan.Name = "labelASconMan";
+            this.labelASconMan.Size = new System.Drawing.Size(62, 13);
+            this.labelASconMan.TabIndex = 62;
+            this.labelASconMan.Text = "Constitution";
+            // 
+            // tbASstr
+            // 
+            this.tbASstr.Location = new System.Drawing.Point(82, 18);
+            this.tbASstr.Name = "tbASstr";
+            this.tbASstr.Size = new System.Drawing.Size(37, 20);
+            this.tbASstr.TabIndex = 7;
+            // 
+            // labelASchaMan
+            // 
+            this.labelASchaMan.AutoSize = true;
+            this.labelASchaMan.ForeColor = System.Drawing.Color.Black;
+            this.labelASchaMan.Location = new System.Drawing.Point(6, 161);
+            this.labelASchaMan.Name = "labelASchaMan";
+            this.labelASchaMan.Size = new System.Drawing.Size(50, 13);
+            this.labelASchaMan.TabIndex = 66;
+            this.labelASchaMan.Text = "Charisma";
+            // 
+            // tbAScon
+            // 
+            this.tbAScon.Location = new System.Drawing.Point(82, 46);
+            this.tbAScon.Name = "tbAScon";
+            this.tbAScon.Size = new System.Drawing.Size(37, 20);
+            this.tbAScon.TabIndex = 12;
+            // 
+            // labelASintMan
+            // 
+            this.labelASintMan.AutoSize = true;
+            this.labelASintMan.ForeColor = System.Drawing.Color.Black;
+            this.labelASintMan.Location = new System.Drawing.Point(6, 133);
+            this.labelASintMan.Name = "labelASintMan";
+            this.labelASintMan.Size = new System.Drawing.Size(61, 13);
+            this.labelASintMan.TabIndex = 65;
+            this.labelASintMan.Text = "Intelligence";
+            // 
+            // tbASdex
+            // 
+            this.tbASdex.Location = new System.Drawing.Point(82, 74);
+            this.tbASdex.Name = "tbASdex";
+            this.tbASdex.Size = new System.Drawing.Size(37, 20);
+            this.tbASdex.TabIndex = 11;
+            // 
+            // labelASwisMan
+            // 
+            this.labelASwisMan.AutoSize = true;
+            this.labelASwisMan.ForeColor = System.Drawing.Color.Black;
+            this.labelASwisMan.Location = new System.Drawing.Point(6, 105);
+            this.labelASwisMan.Name = "labelASwisMan";
+            this.labelASwisMan.Size = new System.Drawing.Size(45, 13);
+            this.labelASwisMan.TabIndex = 64;
+            this.labelASwisMan.Text = "Wisdom";
+            // 
+            // tbASwis
+            // 
+            this.tbASwis.Location = new System.Drawing.Point(82, 102);
+            this.tbASwis.Name = "tbASwis";
+            this.tbASwis.Size = new System.Drawing.Size(37, 20);
+            this.tbASwis.TabIndex = 8;
+            // 
+            // labelASdexMan
+            // 
+            this.labelASdexMan.AutoSize = true;
+            this.labelASdexMan.ForeColor = System.Drawing.Color.Black;
+            this.labelASdexMan.Location = new System.Drawing.Point(6, 77);
+            this.labelASdexMan.Name = "labelASdexMan";
+            this.labelASdexMan.Size = new System.Drawing.Size(48, 13);
+            this.labelASdexMan.TabIndex = 63;
+            this.labelASdexMan.Text = "Dexterity";
+            // 
+            // tbAScha
+            // 
+            this.tbAScha.Location = new System.Drawing.Point(82, 158);
+            this.tbAScha.Name = "tbAScha";
+            this.tbAScha.Size = new System.Drawing.Size(37, 20);
+            this.tbAScha.TabIndex = 10;
+            // 
+            // tbASint
+            // 
+            this.tbASint.Location = new System.Drawing.Point(82, 130);
+            this.tbASint.Name = "tbASint";
+            this.tbASint.Size = new System.Drawing.Size(37, 20);
+            this.tbASint.TabIndex = 9;
+            // 
             // tbASbonusPoints
             // 
             this.tbASbonusPoints.Location = new System.Drawing.Point(89, 439);
@@ -280,216 +799,6 @@
             this.label27.TabIndex = 53;
             this.label27.Text = "Available Points:";
             // 
-            // tbASconBonus
-            // 
-            this.tbASconBonus.Location = new System.Drawing.Point(115, 46);
-            this.tbASconBonus.Name = "tbASconBonus";
-            this.tbASconBonus.Size = new System.Drawing.Size(35, 20);
-            this.tbASconBonus.TabIndex = 52;
-            // 
-            // tbASdexBonus
-            // 
-            this.tbASdexBonus.Location = new System.Drawing.Point(115, 73);
-            this.tbASdexBonus.Name = "tbASdexBonus";
-            this.tbASdexBonus.Size = new System.Drawing.Size(35, 20);
-            this.tbASdexBonus.TabIndex = 51;
-            // 
-            // tbASchaBonus
-            // 
-            this.tbASchaBonus.Location = new System.Drawing.Point(116, 158);
-            this.tbASchaBonus.Name = "tbASchaBonus";
-            this.tbASchaBonus.Size = new System.Drawing.Size(35, 20);
-            this.tbASchaBonus.TabIndex = 50;
-            // 
-            // tbASintBonus
-            // 
-            this.tbASintBonus.Location = new System.Drawing.Point(116, 130);
-            this.tbASintBonus.Name = "tbASintBonus";
-            this.tbASintBonus.Size = new System.Drawing.Size(35, 20);
-            this.tbASintBonus.TabIndex = 49;
-            // 
-            // tbASwisBonus
-            // 
-            this.tbASwisBonus.Location = new System.Drawing.Point(115, 102);
-            this.tbASwisBonus.Name = "tbASwisBonus";
-            this.tbASwisBonus.Size = new System.Drawing.Size(35, 20);
-            this.tbASwisBonus.TabIndex = 48;
-            // 
-            // tbASstrBonus
-            // 
-            this.tbASstrBonus.Location = new System.Drawing.Point(116, 18);
-            this.tbASstrBonus.Name = "tbASstrBonus";
-            this.tbASstrBonus.Size = new System.Drawing.Size(35, 20);
-            this.tbASstrBonus.TabIndex = 47;
-            // 
-            // btnASconMin
-            // 
-            this.btnASconMin.Location = new System.Drawing.Point(156, 44);
-            this.btnASconMin.Name = "btnASconMin";
-            this.btnASconMin.Size = new System.Drawing.Size(27, 23);
-            this.btnASconMin.TabIndex = 46;
-            this.btnASconMin.Text = "-";
-            this.btnASconMin.UseVisualStyleBackColor = true;
-            // 
-            // btnASdexMin
-            // 
-            this.btnASdexMin.Location = new System.Drawing.Point(156, 72);
-            this.btnASdexMin.Name = "btnASdexMin";
-            this.btnASdexMin.Size = new System.Drawing.Size(27, 23);
-            this.btnASdexMin.TabIndex = 45;
-            this.btnASdexMin.Text = "-";
-            this.btnASdexMin.UseVisualStyleBackColor = true;
-            // 
-            // btnASchaMin
-            // 
-            this.btnASchaMin.Location = new System.Drawing.Point(156, 156);
-            this.btnASchaMin.Name = "btnASchaMin";
-            this.btnASchaMin.Size = new System.Drawing.Size(27, 23);
-            this.btnASchaMin.TabIndex = 44;
-            this.btnASchaMin.Text = "-";
-            this.btnASchaMin.UseVisualStyleBackColor = true;
-            // 
-            // btnASintMin
-            // 
-            this.btnASintMin.Location = new System.Drawing.Point(156, 128);
-            this.btnASintMin.Name = "btnASintMin";
-            this.btnASintMin.Size = new System.Drawing.Size(27, 23);
-            this.btnASintMin.TabIndex = 43;
-            this.btnASintMin.Text = "-";
-            this.btnASintMin.UseVisualStyleBackColor = true;
-            // 
-            // btnASwisMin
-            // 
-            this.btnASwisMin.Location = new System.Drawing.Point(156, 100);
-            this.btnASwisMin.Name = "btnASwisMin";
-            this.btnASwisMin.Size = new System.Drawing.Size(27, 23);
-            this.btnASwisMin.TabIndex = 42;
-            this.btnASwisMin.Text = "-";
-            this.btnASwisMin.UseVisualStyleBackColor = true;
-            // 
-            // btnASstrMin
-            // 
-            this.btnASstrMin.Location = new System.Drawing.Point(156, 16);
-            this.btnASstrMin.Name = "btnASstrMin";
-            this.btnASstrMin.Size = new System.Drawing.Size(27, 23);
-            this.btnASstrMin.TabIndex = 41;
-            this.btnASstrMin.Text = "-";
-            this.btnASstrMin.UseVisualStyleBackColor = true;
-            // 
-            // btnASconPlus
-            // 
-            this.btnASconPlus.Location = new System.Drawing.Point(83, 44);
-            this.btnASconPlus.Name = "btnASconPlus";
-            this.btnASconPlus.Size = new System.Drawing.Size(27, 23);
-            this.btnASconPlus.TabIndex = 40;
-            this.btnASconPlus.Text = "+";
-            this.btnASconPlus.UseVisualStyleBackColor = true;
-            // 
-            // btnASdexPlus
-            // 
-            this.btnASdexPlus.Location = new System.Drawing.Point(83, 72);
-            this.btnASdexPlus.Name = "btnASdexPlus";
-            this.btnASdexPlus.Size = new System.Drawing.Size(27, 23);
-            this.btnASdexPlus.TabIndex = 39;
-            this.btnASdexPlus.Text = "+";
-            this.btnASdexPlus.UseVisualStyleBackColor = true;
-            // 
-            // btnASwisPlus
-            // 
-            this.btnASwisPlus.Location = new System.Drawing.Point(83, 100);
-            this.btnASwisPlus.Name = "btnASwisPlus";
-            this.btnASwisPlus.Size = new System.Drawing.Size(27, 23);
-            this.btnASwisPlus.TabIndex = 38;
-            this.btnASwisPlus.Text = "+";
-            this.btnASwisPlus.UseVisualStyleBackColor = true;
-            // 
-            // btnASintPlus
-            // 
-            this.btnASintPlus.Location = new System.Drawing.Point(83, 128);
-            this.btnASintPlus.Name = "btnASintPlus";
-            this.btnASintPlus.Size = new System.Drawing.Size(27, 23);
-            this.btnASintPlus.TabIndex = 37;
-            this.btnASintPlus.Text = "+";
-            this.btnASintPlus.UseVisualStyleBackColor = true;
-            // 
-            // btnASchaPlus
-            // 
-            this.btnASchaPlus.Location = new System.Drawing.Point(83, 156);
-            this.btnASchaPlus.Name = "btnASchaPlus";
-            this.btnASchaPlus.Size = new System.Drawing.Size(27, 23);
-            this.btnASchaPlus.TabIndex = 36;
-            this.btnASchaPlus.Text = "+";
-            this.btnASchaPlus.UseVisualStyleBackColor = true;
-            // 
-            // btnASstrPlus
-            // 
-            this.btnASstrPlus.Location = new System.Drawing.Point(83, 16);
-            this.btnASstrPlus.Name = "btnASstrPlus";
-            this.btnASstrPlus.Size = new System.Drawing.Size(27, 23);
-            this.btnASstrPlus.TabIndex = 35;
-            this.btnASstrPlus.Text = "+";
-            this.btnASstrPlus.UseVisualStyleBackColor = true;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.ForeColor = System.Drawing.Color.Black;
-            this.label21.Location = new System.Drawing.Point(19, 161);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(50, 13);
-            this.label21.TabIndex = 34;
-            this.label21.Text = "Charisma";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.ForeColor = System.Drawing.Color.Black;
-            this.label22.Location = new System.Drawing.Point(19, 133);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(61, 13);
-            this.label22.TabIndex = 33;
-            this.label22.Text = "Intelligence";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.ForeColor = System.Drawing.Color.Black;
-            this.label23.Location = new System.Drawing.Point(19, 105);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(45, 13);
-            this.label23.TabIndex = 32;
-            this.label23.Text = "Wisdom";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.ForeColor = System.Drawing.Color.Black;
-            this.label24.Location = new System.Drawing.Point(19, 77);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(48, 13);
-            this.label24.TabIndex = 31;
-            this.label24.Text = "Dexterity";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.ForeColor = System.Drawing.Color.Black;
-            this.label25.Location = new System.Drawing.Point(19, 49);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(62, 13);
-            this.label25.TabIndex = 30;
-            this.label25.Text = "Constitution";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.ForeColor = System.Drawing.Color.Black;
-            this.label26.Location = new System.Drawing.Point(19, 21);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(47, 13);
-            this.label26.TabIndex = 29;
-            this.label26.Text = "Strength";
-            // 
             // label20
             // 
             this.label20.AutoSize = true;
@@ -500,138 +809,6 @@
             this.label20.TabIndex = 28;
             this.label20.Text = "Bonus Ability Score Points";
             // 
-            // cbASchaAuto
-            // 
-            this.cbASchaAuto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbASchaAuto.FormattingEnabled = true;
-            this.cbASchaAuto.Location = new System.Drawing.Point(289, 163);
-            this.cbASchaAuto.Name = "cbASchaAuto";
-            this.cbASchaAuto.Size = new System.Drawing.Size(63, 21);
-            this.cbASchaAuto.TabIndex = 27;
-            // 
-            // cbASconAuto
-            // 
-            this.cbASconAuto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbASconAuto.FormattingEnabled = true;
-            this.cbASconAuto.Location = new System.Drawing.Point(289, 51);
-            this.cbASconAuto.Name = "cbASconAuto";
-            this.cbASconAuto.Size = new System.Drawing.Size(63, 21);
-            this.cbASconAuto.TabIndex = 26;
-            // 
-            // cbASintAuto
-            // 
-            this.cbASintAuto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbASintAuto.FormattingEnabled = true;
-            this.cbASintAuto.Location = new System.Drawing.Point(289, 135);
-            this.cbASintAuto.Name = "cbASintAuto";
-            this.cbASintAuto.Size = new System.Drawing.Size(63, 21);
-            this.cbASintAuto.TabIndex = 25;
-            // 
-            // cbASdexAuto
-            // 
-            this.cbASdexAuto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbASdexAuto.FormattingEnabled = true;
-            this.cbASdexAuto.Location = new System.Drawing.Point(289, 79);
-            this.cbASdexAuto.Name = "cbASdexAuto";
-            this.cbASdexAuto.Size = new System.Drawing.Size(63, 21);
-            this.cbASdexAuto.TabIndex = 24;
-            // 
-            // cbASwisAuto
-            // 
-            this.cbASwisAuto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbASwisAuto.FormattingEnabled = true;
-            this.cbASwisAuto.Location = new System.Drawing.Point(289, 107);
-            this.cbASwisAuto.Name = "cbASwisAuto";
-            this.cbASwisAuto.Size = new System.Drawing.Size(63, 21);
-            this.cbASwisAuto.TabIndex = 23;
-            // 
-            // cbASstrAuto
-            // 
-            this.cbASstrAuto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbASstrAuto.FormattingEnabled = true;
-            this.cbASstrAuto.Location = new System.Drawing.Point(289, 23);
-            this.cbASstrAuto.Name = "cbASstrAuto";
-            this.cbASstrAuto.Size = new System.Drawing.Size(63, 21);
-            this.cbASstrAuto.TabIndex = 22;
-            // 
-            // labelASchaAuto
-            // 
-            this.labelASchaAuto.AutoSize = true;
-            this.labelASchaAuto.ForeColor = System.Drawing.Color.Black;
-            this.labelASchaAuto.Location = new System.Drawing.Point(213, 164);
-            this.labelASchaAuto.Name = "labelASchaAuto";
-            this.labelASchaAuto.Size = new System.Drawing.Size(50, 13);
-            this.labelASchaAuto.TabIndex = 21;
-            this.labelASchaAuto.Text = "Charisma";
-            // 
-            // labelASintAuto
-            // 
-            this.labelASintAuto.AutoSize = true;
-            this.labelASintAuto.ForeColor = System.Drawing.Color.Black;
-            this.labelASintAuto.Location = new System.Drawing.Point(213, 136);
-            this.labelASintAuto.Name = "labelASintAuto";
-            this.labelASintAuto.Size = new System.Drawing.Size(61, 13);
-            this.labelASintAuto.TabIndex = 20;
-            this.labelASintAuto.Text = "Intelligence";
-            // 
-            // labelASwisAuto
-            // 
-            this.labelASwisAuto.AutoSize = true;
-            this.labelASwisAuto.ForeColor = System.Drawing.Color.Black;
-            this.labelASwisAuto.Location = new System.Drawing.Point(213, 108);
-            this.labelASwisAuto.Name = "labelASwisAuto";
-            this.labelASwisAuto.Size = new System.Drawing.Size(45, 13);
-            this.labelASwisAuto.TabIndex = 19;
-            this.labelASwisAuto.Text = "Wisdom";
-            // 
-            // labelASdexAuto
-            // 
-            this.labelASdexAuto.AutoSize = true;
-            this.labelASdexAuto.ForeColor = System.Drawing.Color.Black;
-            this.labelASdexAuto.Location = new System.Drawing.Point(213, 80);
-            this.labelASdexAuto.Name = "labelASdexAuto";
-            this.labelASdexAuto.Size = new System.Drawing.Size(48, 13);
-            this.labelASdexAuto.TabIndex = 18;
-            this.labelASdexAuto.Text = "Dexterity";
-            // 
-            // labelASconAuto
-            // 
-            this.labelASconAuto.AutoSize = true;
-            this.labelASconAuto.ForeColor = System.Drawing.Color.Black;
-            this.labelASconAuto.Location = new System.Drawing.Point(213, 52);
-            this.labelASconAuto.Name = "labelASconAuto";
-            this.labelASconAuto.Size = new System.Drawing.Size(62, 13);
-            this.labelASconAuto.TabIndex = 17;
-            this.labelASconAuto.Text = "Constitution";
-            // 
-            // labelASstrAuto
-            // 
-            this.labelASstrAuto.AutoSize = true;
-            this.labelASstrAuto.ForeColor = System.Drawing.Color.Black;
-            this.labelASstrAuto.Location = new System.Drawing.Point(213, 24);
-            this.labelASstrAuto.Name = "labelASstrAuto";
-            this.labelASstrAuto.Size = new System.Drawing.Size(47, 13);
-            this.labelASstrAuto.TabIndex = 16;
-            this.labelASstrAuto.Text = "Strength";
-            // 
-            // lbDiceAuto
-            // 
-            this.lbDiceAuto.FormattingEnabled = true;
-            this.lbDiceAuto.Location = new System.Drawing.Point(87, 15);
-            this.lbDiceAuto.Name = "lbDiceAuto";
-            this.lbDiceAuto.Size = new System.Drawing.Size(120, 238);
-            this.lbDiceAuto.TabIndex = 15;
-            // 
-            // btnASrollAuto
-            // 
-            this.btnASrollAuto.Location = new System.Drawing.Point(6, 16);
-            this.btnASrollAuto.Name = "btnASrollAuto";
-            this.btnASrollAuto.Size = new System.Drawing.Size(75, 23);
-            this.btnASrollAuto.TabIndex = 14;
-            this.btnASrollAuto.Text = "Roll Dice";
-            this.btnASrollAuto.UseVisualStyleBackColor = true;
-            this.btnASrollAuto.Click += new System.EventHandler(this.btnASroll_Click);
-            // 
             // btnASsave
             // 
             this.btnASsave.ForeColor = System.Drawing.Color.Black;
@@ -641,48 +818,6 @@
             this.btnASsave.TabIndex = 13;
             this.btnASsave.Text = "Save Changes";
             this.btnASsave.UseVisualStyleBackColor = true;
-            // 
-            // tbAScon
-            // 
-            this.tbAScon.Location = new System.Drawing.Point(82, 46);
-            this.tbAScon.Name = "tbAScon";
-            this.tbAScon.Size = new System.Drawing.Size(37, 20);
-            this.tbAScon.TabIndex = 12;
-            // 
-            // tbASdex
-            // 
-            this.tbASdex.Location = new System.Drawing.Point(82, 74);
-            this.tbASdex.Name = "tbASdex";
-            this.tbASdex.Size = new System.Drawing.Size(37, 20);
-            this.tbASdex.TabIndex = 11;
-            // 
-            // tbAScha
-            // 
-            this.tbAScha.Location = new System.Drawing.Point(82, 158);
-            this.tbAScha.Name = "tbAScha";
-            this.tbAScha.Size = new System.Drawing.Size(37, 20);
-            this.tbAScha.TabIndex = 10;
-            // 
-            // tbASint
-            // 
-            this.tbASint.Location = new System.Drawing.Point(82, 130);
-            this.tbASint.Name = "tbASint";
-            this.tbASint.Size = new System.Drawing.Size(37, 20);
-            this.tbASint.TabIndex = 9;
-            // 
-            // tbASwis
-            // 
-            this.tbASwis.Location = new System.Drawing.Point(82, 102);
-            this.tbASwis.Name = "tbASwis";
-            this.tbASwis.Size = new System.Drawing.Size(37, 20);
-            this.tbASwis.TabIndex = 8;
-            // 
-            // tbASstr
-            // 
-            this.tbASstr.Location = new System.Drawing.Point(82, 18);
-            this.tbASstr.Name = "tbASstr";
-            this.tbASstr.Size = new System.Drawing.Size(37, 20);
-            this.tbASstr.TabIndex = 7;
             // 
             // gbRollDiceMethod
             // 
@@ -736,7 +871,7 @@
             this.tab_Skills.Location = new System.Drawing.Point(4, 22);
             this.tab_Skills.Name = "tab_Skills";
             this.tab_Skills.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_Skills.Size = new System.Drawing.Size(703, 465);
+            this.tab_Skills.Size = new System.Drawing.Size(733, 465);
             this.tab_Skills.TabIndex = 2;
             this.tab_Skills.Text = "Skills";
             // 
@@ -746,7 +881,7 @@
             this.tab_Feats.Location = new System.Drawing.Point(4, 22);
             this.tab_Feats.Name = "tab_Feats";
             this.tab_Feats.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_Feats.Size = new System.Drawing.Size(703, 465);
+            this.tab_Feats.Size = new System.Drawing.Size(733, 465);
             this.tab_Feats.TabIndex = 3;
             this.tab_Feats.Text = "Feats";
             // 
@@ -756,7 +891,7 @@
             this.tab_Spells.Location = new System.Drawing.Point(4, 22);
             this.tab_Spells.Name = "tab_Spells";
             this.tab_Spells.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_Spells.Size = new System.Drawing.Size(703, 465);
+            this.tab_Spells.Size = new System.Drawing.Size(733, 465);
             this.tab_Spells.TabIndex = 4;
             this.tab_Spells.Text = "Spells";
             // 
@@ -1051,140 +1186,6 @@
             this.label1.TabIndex = 37;
             this.label1.Text = "Strength";
             // 
-            // gbASmanual
-            // 
-            this.gbASmanual.Controls.Add(this.labelASstrMan);
-            this.gbASmanual.Controls.Add(this.labelASconMan);
-            this.gbASmanual.Controls.Add(this.tbASstr);
-            this.gbASmanual.Controls.Add(this.labelASchaMan);
-            this.gbASmanual.Controls.Add(this.tbAScon);
-            this.gbASmanual.Controls.Add(this.labelASintMan);
-            this.gbASmanual.Controls.Add(this.tbASdex);
-            this.gbASmanual.Controls.Add(this.labelASwisMan);
-            this.gbASmanual.Controls.Add(this.tbASwis);
-            this.gbASmanual.Controls.Add(this.labelASdexMan);
-            this.gbASmanual.Controls.Add(this.tbAScha);
-            this.gbASmanual.Controls.Add(this.tbASint);
-            this.gbASmanual.Location = new System.Drawing.Point(9, 123);
-            this.gbASmanual.Name = "gbASmanual";
-            this.gbASmanual.Size = new System.Drawing.Size(132, 195);
-            this.gbASmanual.TabIndex = 55;
-            this.gbASmanual.TabStop = false;
-            // 
-            // gbASauto
-            // 
-            this.gbASauto.Controls.Add(this.btnASrollAuto);
-            this.gbASauto.Controls.Add(this.lbDiceAuto);
-            this.gbASauto.Controls.Add(this.labelASstrAuto);
-            this.gbASauto.Controls.Add(this.labelASconAuto);
-            this.gbASauto.Controls.Add(this.labelASdexAuto);
-            this.gbASauto.Controls.Add(this.labelASwisAuto);
-            this.gbASauto.Controls.Add(this.labelASintAuto);
-            this.gbASauto.Controls.Add(this.labelASchaAuto);
-            this.gbASauto.Controls.Add(this.cbASstrAuto);
-            this.gbASauto.Controls.Add(this.cbASwisAuto);
-            this.gbASauto.Controls.Add(this.cbASdexAuto);
-            this.gbASauto.Controls.Add(this.cbASintAuto);
-            this.gbASauto.Controls.Add(this.cbASconAuto);
-            this.gbASauto.Controls.Add(this.cbASchaAuto);
-            this.gbASauto.Location = new System.Drawing.Point(147, 123);
-            this.gbASauto.Name = "gbASauto";
-            this.gbASauto.Size = new System.Drawing.Size(359, 266);
-            this.gbASauto.TabIndex = 56;
-            this.gbASauto.TabStop = false;
-            // 
-            // gbASpoints
-            // 
-            this.gbASpoints.Controls.Add(this.label26);
-            this.gbASpoints.Controls.Add(this.label25);
-            this.gbASpoints.Controls.Add(this.label24);
-            this.gbASpoints.Controls.Add(this.label23);
-            this.gbASpoints.Controls.Add(this.label22);
-            this.gbASpoints.Controls.Add(this.tbASconBonus);
-            this.gbASpoints.Controls.Add(this.label21);
-            this.gbASpoints.Controls.Add(this.tbASdexBonus);
-            this.gbASpoints.Controls.Add(this.btnASstrPlus);
-            this.gbASpoints.Controls.Add(this.tbASchaBonus);
-            this.gbASpoints.Controls.Add(this.btnASchaPlus);
-            this.gbASpoints.Controls.Add(this.tbASintBonus);
-            this.gbASpoints.Controls.Add(this.btnASintPlus);
-            this.gbASpoints.Controls.Add(this.tbASwisBonus);
-            this.gbASpoints.Controls.Add(this.btnASwisPlus);
-            this.gbASpoints.Controls.Add(this.tbASstrBonus);
-            this.gbASpoints.Controls.Add(this.btnASdexPlus);
-            this.gbASpoints.Controls.Add(this.btnASconMin);
-            this.gbASpoints.Controls.Add(this.btnASconPlus);
-            this.gbASpoints.Controls.Add(this.btnASdexMin);
-            this.gbASpoints.Controls.Add(this.btnASstrMin);
-            this.gbASpoints.Controls.Add(this.btnASchaMin);
-            this.gbASpoints.Controls.Add(this.btnASwisMin);
-            this.gbASpoints.Controls.Add(this.btnASintMin);
-            this.gbASpoints.Location = new System.Drawing.Point(512, 123);
-            this.gbASpoints.Name = "gbASpoints";
-            this.gbASpoints.Size = new System.Drawing.Size(192, 223);
-            this.gbASpoints.TabIndex = 57;
-            this.gbASpoints.TabStop = false;
-            // 
-            // labelASstrMan
-            // 
-            this.labelASstrMan.AutoSize = true;
-            this.labelASstrMan.ForeColor = System.Drawing.Color.Black;
-            this.labelASstrMan.Location = new System.Drawing.Point(6, 21);
-            this.labelASstrMan.Name = "labelASstrMan";
-            this.labelASstrMan.Size = new System.Drawing.Size(47, 13);
-            this.labelASstrMan.TabIndex = 61;
-            this.labelASstrMan.Text = "Strength";
-            // 
-            // labelASconMan
-            // 
-            this.labelASconMan.AutoSize = true;
-            this.labelASconMan.ForeColor = System.Drawing.Color.Black;
-            this.labelASconMan.Location = new System.Drawing.Point(6, 49);
-            this.labelASconMan.Name = "labelASconMan";
-            this.labelASconMan.Size = new System.Drawing.Size(62, 13);
-            this.labelASconMan.TabIndex = 62;
-            this.labelASconMan.Text = "Constitution";
-            // 
-            // labelASchaMan
-            // 
-            this.labelASchaMan.AutoSize = true;
-            this.labelASchaMan.ForeColor = System.Drawing.Color.Black;
-            this.labelASchaMan.Location = new System.Drawing.Point(6, 161);
-            this.labelASchaMan.Name = "labelASchaMan";
-            this.labelASchaMan.Size = new System.Drawing.Size(50, 13);
-            this.labelASchaMan.TabIndex = 66;
-            this.labelASchaMan.Text = "Charisma";
-            // 
-            // labelASintMan
-            // 
-            this.labelASintMan.AutoSize = true;
-            this.labelASintMan.ForeColor = System.Drawing.Color.Black;
-            this.labelASintMan.Location = new System.Drawing.Point(6, 133);
-            this.labelASintMan.Name = "labelASintMan";
-            this.labelASintMan.Size = new System.Drawing.Size(61, 13);
-            this.labelASintMan.TabIndex = 65;
-            this.labelASintMan.Text = "Intelligence";
-            // 
-            // labelASwisMan
-            // 
-            this.labelASwisMan.AutoSize = true;
-            this.labelASwisMan.ForeColor = System.Drawing.Color.Black;
-            this.labelASwisMan.Location = new System.Drawing.Point(6, 105);
-            this.labelASwisMan.Name = "labelASwisMan";
-            this.labelASwisMan.Size = new System.Drawing.Size(45, 13);
-            this.labelASwisMan.TabIndex = 64;
-            this.labelASwisMan.Text = "Wisdom";
-            // 
-            // labelASdexMan
-            // 
-            this.labelASdexMan.AutoSize = true;
-            this.labelASdexMan.ForeColor = System.Drawing.Color.Black;
-            this.labelASdexMan.Location = new System.Drawing.Point(6, 77);
-            this.labelASdexMan.Name = "labelASdexMan";
-            this.labelASdexMan.Size = new System.Drawing.Size(48, 13);
-            this.labelASdexMan.TabIndex = 63;
-            this.labelASdexMan.Text = "Dexterity";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1231,14 +1232,14 @@
             this.tab_RaceClass.PerformLayout();
             this.tab_AbilityScores.ResumeLayout(false);
             this.tab_AbilityScores.PerformLayout();
-            this.gbRollDiceMethod.ResumeLayout(false);
-            this.gbRollDiceMethod.PerformLayout();
-            this.gbASmanual.ResumeLayout(false);
-            this.gbASmanual.PerformLayout();
-            this.gbASauto.ResumeLayout(false);
-            this.gbASauto.PerformLayout();
             this.gbASpoints.ResumeLayout(false);
             this.gbASpoints.PerformLayout();
+            this.gbASauto.ResumeLayout(false);
+            this.gbASauto.PerformLayout();
+            this.gbASmanual.ResumeLayout(false);
+            this.gbASmanual.PerformLayout();
+            this.gbRollDiceMethod.ResumeLayout(false);
+            this.gbRollDiceMethod.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

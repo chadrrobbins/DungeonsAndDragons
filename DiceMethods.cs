@@ -17,7 +17,39 @@ namespace DungeonsAndDragons_0623_2014
             int[] randArray = { inputRandom.Next(1, 7), inputRandom.Next(1, 7), inputRandom.Next(1, 7), inputRandom.Next(1, 7) };            
 
             return randArray;
-        }        
+        }
+
+        public List<int[]> GetRollsList()
+        {
+            var ListIntArray = new List<int[]>();
+            int[] IntArray;
+            Random Random = new Random();
+
+            for (int i = 0; i < 6; i++)
+            {
+                IntArray = GetDiceArray(Random);
+                Array.Sort(IntArray);
+                ListIntArray.Add(IntArray);
+            }
+
+            return ListIntArray;
+        }
+
+        public void PrintDiceList(ListBox InputListBox)
+        {
+            List<int[]> ListIntArray = new List<int[]>();
+
+            ListIntArray = GetRollsList();
+
+            for (int i = 0; i < ListIntArray.Count; i++)
+            {
+                for (int j = 0; i < ListIntArray.Count; j++)
+                {
+                    //InputListBox.Items.Add(ListIntArray[i, j]);
+                }
+            }
+
+        }
 
         public void PrintDiceArray(ListBox InputListbox)
         {            
@@ -35,6 +67,13 @@ namespace DungeonsAndDragons_0623_2014
                 InputListbox.Items.Add(DiceArray[0] + " ," + DiceArray[1] + " ," + DiceArray[2] + " ," + DiceArray[3] + " =" + Total);
                 InputListbox.Items.Add("");
             }
-        }  
+        }
+
+        public List<int> GetAbilityScores()
+        {
+            List<int> DiceList = new List<int>();
+
+            return DiceList;
+        }
     }
 }

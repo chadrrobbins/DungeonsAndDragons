@@ -14,8 +14,6 @@ namespace DungeonsAndDragons_0623_2014
 {
     public partial class Form1 : Form
     {
-        XmlDocument xmlDoc = new XmlDocument();        
-
         public Form1()
         {
             InitializeComponent();            
@@ -50,9 +48,17 @@ namespace DungeonsAndDragons_0623_2014
 
         private void btnASroll_Click(object sender, EventArgs e)
         {               
-            DiceMethods DiceMethods = new DiceMethods();            
+            DiceMethods DiceMethods = new DiceMethods();
+            int[] AbilityScores = { };
 
-            DiceMethods.PrintDiceList(lbDiceAuto);
+            AbilityScores = DiceMethods.PrintDiceList(lbDiceAuto);
+
+            cbASchaAuto.DataSource = AbilityScores;
+            cbASconAuto.DataSource = AbilityScores;
+            cbASdexAuto.DataSource = AbilityScores;
+            cbASintAuto.DataSource = AbilityScores;
+            cbASstrAuto.DataSource = AbilityScores;
+            cbASwisAuto.DataSource = AbilityScores;
         }
 
         private void rbAuto_CheckedChanged(object sender, EventArgs e)

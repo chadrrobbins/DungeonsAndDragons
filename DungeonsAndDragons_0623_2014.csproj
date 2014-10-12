@@ -52,7 +52,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DungeonsAndDragons_0624_2014DataSet2.xsd</DependentUpon>
     </Compile>
-    <Compile Include="FillMethods.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -37,18 +37,23 @@ namespace DungeonsAndDragons_0623_2014
 
         public void PrintDiceList(ListBox InputListBox)
         {
+            InputListBox.Items.Clear();
+
             List<int[]> ListIntArray = new List<int[]>();
+            int[] ListLine;
+            int ListResult;
 
             ListIntArray = GetRollsList();
 
             for (int i = 0; i < ListIntArray.Count; i++)
             {
-                for (int j = 0; i < ListIntArray.Count; j++)
-                {
-                    //InputListBox.Items.Add(ListIntArray[i, j]);
-                }
+                ListLine = ListIntArray[i];
+                Array.Sort(ListLine);
+                ListResult = (ListLine[1] + ListLine[2] + ListLine[3]);
+                InputListBox.Items.Add("Roll " + (i + 1) + ":");
+                InputListBox.Items.Add(ListLine[0] +  " + " + ListLine[1] + " + " + ListLine[2] + " + " + ListLine[3] + " = " + ListResult);
+                InputListBox.Items.Add("");
             }
-
         }
 
         public void PrintDiceArray(ListBox InputListbox)

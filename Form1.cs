@@ -50,10 +50,9 @@ namespace DungeonsAndDragons_0623_2014
 
         private void btnASroll_Click(object sender, EventArgs e)
         {               
-            DiceMethods DiceMethods = new DiceMethods();
+            DiceMethods DiceMethods = new DiceMethods();            
 
-            DiceMethods.PrintDiceArray(lbDiceAuto);          
-            
+            DiceMethods.PrintDiceList(lbDiceAuto);
         }
 
         private void rbAuto_CheckedChanged(object sender, EventArgs e)
